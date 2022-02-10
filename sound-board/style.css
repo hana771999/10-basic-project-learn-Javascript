@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(192, 130, 223);
+
+}
+
+.btn{
+    padding: 20px;
+    background-color: darkmagenta;
+    border: none;
+    margin: 20px;
+    border-radius:10px ;
+    color: white;
+
+
+}

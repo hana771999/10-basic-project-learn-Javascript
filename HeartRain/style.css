@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.heart{
+    color: darkmagenta;
+    font-size: 40px;
+    position: fixed;
+    top:-1vh;
+    transform: translateY(0);
+    animation: fall 3s linear;
+}
+
+@keyframes fall{
+    to{
+        transform: translateY(105vh);
+    }
+}

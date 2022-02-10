@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#btn{
+    border: none;
+    background-color: darkmagenta;
+    color: black;
+    padding: 20px;
+    font-family: inherit;
+    letter-spacing: 1px;
+    font-size: 18px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+}
+#btn:active{
+    transform: translate(2px,2px);
+}
+
+
+
+
+
+
+
+
+
+
+
+

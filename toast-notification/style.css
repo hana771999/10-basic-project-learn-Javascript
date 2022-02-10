@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+#btn{
+    padding: 20px;
+    background-color: darkmagenta;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+#container{
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+
+
+}
+.toast{
+
+    background-color: darkmagenta;
+    color: white;
+    border-radius:5px ;
+    padding: 20px;
+    margin: 5px;
+
+}
